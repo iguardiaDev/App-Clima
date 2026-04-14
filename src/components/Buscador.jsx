@@ -1,5 +1,5 @@
-
 import { useState } from "react"; //Importamos useState de react
+import './Buscador.css';
 
 export default function Buscador(props)
 {

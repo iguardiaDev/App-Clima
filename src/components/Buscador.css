@@ -1,0 +1,54 @@
+.buscador {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #ffffff15;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: inherit;
+    color: #f1f5f9;
+    background: #1e293b;
+    transition: border-color 0.2s;
+    outline: none;
+}
+
+input::placeholder {
+    color: #64748b;
+}
+
+input:focus {
+    border-color: #38bdf8;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    margin-top: 5px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+    letter-spacing: 0.03em;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    transform: scale(0.98);
+}
